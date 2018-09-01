@@ -1,0 +1,17 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body {
+  font-family: Quicksand;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  background: url(https://picsum.photos/1000/700?image=0
+) no-repeat 50% 50%;
+  background-size: cover;
+}
