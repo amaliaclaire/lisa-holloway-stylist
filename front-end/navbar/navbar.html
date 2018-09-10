@@ -37,6 +37,35 @@
         <p> Suspendisse enim nisi, varius ac aliquet in, finibus vitae enim. Praesent sodales euismod mi, id dictum eros fringilla vel. Nulla nisi elit, tempor vitae ante sed, tincidunt sagittis libero. Fusce tincidunt a elit sed posuere. Proin maximus felis in rhoncus imperdiet. Aliquam eget mauris varius, tincidunt odio a, mattis purus. Phasellus a pulvinar arcu. Maecenas lacus nisl, gravida ac condimentum in, consequat non velit. Fusce aliquet ullamcorper orci, sit amet volutpat enim elementum sit amet. Donec vel purus lacus. Vestibulum eu sollicitudin elit, non tincidunt leo. Donec porta consequat nisi, et luctus elit pretium nec. Nunc tincidunt nulla non diam commodo, sit amet blandit justo mollis. Cras pulvinar lacinia tellus.</p>
       </div>
 
-    <script type="text/javascript"></script>
+    <script type="text/javascript">
+
+
+    // menu toggle-button
+      $(document).ready(function () {
+        $(".menu-icon").on("click", function () {
+          $("nav ul").toggleClass("showing");
+        });
+      });
+
+      // scrolling effect;
+
+      $(window).on("scroll", function () {
+        if($(window).scrollTop()) {
+          $('nav').addClass('black');
+        }
+        else {
+          $('nav').removeClass('black')
+        }
+      })
+
+
+
+
+
+
+
+
+
+    </script>
   </body>
 </html>
