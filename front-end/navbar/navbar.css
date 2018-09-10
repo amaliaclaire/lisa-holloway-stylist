@@ -74,6 +74,17 @@ color: #fff
 display: none;
 }
 
+#about-lisa {
+   color: black;
+   font-family: 'Source Sans Pro', sans-serif;
+   font-weight: lighter;
+   text-align: center;
+   top: 50%;
+   left: 50%;
+
+
+}
+
 @media(max-width: 580px) {
   .logo {
     position: fixed;
