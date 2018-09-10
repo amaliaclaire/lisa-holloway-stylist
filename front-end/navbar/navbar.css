@@ -6,6 +6,7 @@ html, body {
 
 body {
   font-family: Quicksand;
+
 }
 
 header {
@@ -84,6 +85,70 @@ display: none;
 
 
 }
+
+/* center text about-lisa */
+
+.nav {
+  font-family: Prime;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.nav * {
+  box-sizing: border-box;
+  transition: all 0.35s ease;
+}
+
+.nav li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: .5em 1em;
+  padding: 0;
+}
+
+.nav a {
+  padding: .5em 0.83em;
+  color: rgba(255, 255, 255, 0.5)
+  position: relative;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.nav a:before,
+.nav a:after {
+  height: 14px;
+  width: 14px;
+  position: absolute;
+  content: '';
+  transition: all 0.35s ease;
+  opacity: 0
+}
+
+.nav a:before {
+  right: 0;
+  top: 0;
+  border-right: 3px solid red;
+  border-top: 3px solid red;
+  transform: translate(-100%, 50%);
+}
+
+.nav a:after {
+  left: 0;
+  bottom: 0;
+  border-left: 3px solid red;
+  border-bottom: 3px solid red;
+  transform: (100%, -50%)
+}
+
+
+.nav li:hover{
+  transform: translate(0%, 0%);
+  opacity: 1;
+  border: 3px solid black;
+}
+
 
 @media(max-width: 580px) {
   .logo {
