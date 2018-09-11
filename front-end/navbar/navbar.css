@@ -139,16 +139,18 @@ display: none;
   bottom: 0;
   border-left: 3px solid red;
   border-bottom: 3px solid red;
-  transform: (100%, -50%)
+  transform: translate(100%, -50%);
 }
 
-
-.nav li:hover{
+.nav a:hover:before,
+.nav a:hover:after {
   transform: translate(0%, 0%);
-  opacity: 1;
-  border: 3px solid black;
-}
+  opacity: 1
+  }
 
+
+
+/* mobile responsive */
 
 @media(max-width: 580px) {
   .logo {
