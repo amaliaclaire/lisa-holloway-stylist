@@ -2,22 +2,30 @@ html {
   position: relative;
   min-height: 100%;
 }
+
+* {
+  padding: 0;
+  margin: 0;
+}
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
+
+
+
 }
 .jumbotron {
-  background-image: url("https://www.smak.co.za/images/bg.jpg");
+  background-image: url("https://image.ibb.co/iDysC9/IMG_20180329_141451485.jpg");
   background-size: 100% 100%;
-  color: #b0bec5;
+  color: #604D53;
   margin-bottom: 0;
 }
 .navbar-scroll {
-  background-color: rgba(0,123,255,0.4);
+  background-color: #604D53;
   transition: background-color 0.5s;
 }
 @media(max-width: 768px){
-    .navbar {background-color: #007bff !important; }
+    .navbar {background-color: #604D53 !important; }
 }
 /* ============================================================
   PRIMARY STRUCTURE
@@ -26,6 +34,8 @@ body {
   max-width: 960px;
   margin: 0 auto;
 }
+
+
 
 /* ============================================================
   SECTIONS
@@ -61,27 +71,27 @@ section.module.parallax h1 {
   color: #1e1e1e;
   font-size: 48px;
   line-height: 1;
-  font-weight: 700;
+  font-weight: 500;
   text-align: center;
   text-transform: uppercase;
   text-shadow: 0 0 10px white;
 }
 section.module.parallax-1 {
-  background-image: url("https://i.ytimg.com/vi/SwOaV-pzGcA/maxresdefault.jpg");
-  background-position: 50% 0;
+  background-image: url("https://www.go2convert.com/Converted/Download/981929078bab48508fdf35c28a05ad5a");
+  background-position: 50%, 0;
   background-repeat: repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-color: rgba(0,123,255,0.4);
+  background-color: #604D53;
   background-blend-mode: screen;
 }
 section.module.parallax-2 {
-  background-image: url("http://www.planwallpaper.com/static/images/Fall-Nature-Background-Pictures.jpg");
+  background-image: url("https://www.go2convert.com/Converted/Download/981929078bab48508fdf35c28a05ad5a");
   background-position: 50% 0;
   background-repeat: repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-color: rgba(0,123,255,0.4);
+  background-color: #604D53;
   background-blend-mode: screen;
 }
 section.module.parallax-3 {
@@ -90,7 +100,7 @@ section.module.parallax-3 {
   background-repeat: repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-color: rgba(0,123,255,0.4);
+  background-color: #604D53;
   background-blend-mode: screen;
 }
 
@@ -108,6 +118,12 @@ section.module.parallax-3 {
     font-size: 96px;
   }
 }
+
+/* services & booking  */
+
+
+
+/*  end of services & booking*/
 @media all and (min-width: 960px) {
   section.module.parallax h1 {
     font-size: 160px;
