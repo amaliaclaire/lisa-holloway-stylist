@@ -130,6 +130,24 @@ display: none;
 
 }
 
+/* introduction  */
+
+.img-valign {
+  vertical-align: middle;
+  margin-bottom: 0.75em;
+  width:200px; /* you can use % */
+  height: auto;
+  /* float: left;  */
+}
+
+.text2 {
+  font-size: 20px;
+  word-wrap: break-word;
+  border-style: solid;
+
+}
+/* end of introduction */
+
 /* center text about-lisa */
 
 .nav {
