@@ -132,24 +132,27 @@ section.module.parallax-3 {
 /*footer*/
 .footer .container-fluid {
   height: auto;
+  background-color:  #D5C5C8;
+
 }
 .footer {
   position: absolute;
   bottom: 0;
   width: 100%;
+  background-color: #FFDBDA
   /* Set the fixed height of the footer here */
   height: 60px;
   line-height: 60px;
 }
 footer .container-fluid a {
   display: inline-block;
-  color: #ddd;
+  color: black;
   padding-left: 1em;
 
 }
 footer .container-fluid p {
   display: inline-block;
-  color: #ddd;
+  color: black;
   padding-left: 1em;
   padding-right: 2em;
 }
