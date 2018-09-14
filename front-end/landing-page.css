@@ -10,10 +10,9 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
-
-
-
 }
+
+
 .jumbotron {
   background-image: url("https://image.ibb.co/iDysC9/IMG_20180329_141451485.jpg");
   background-size: 100% 100%;
@@ -120,8 +119,6 @@ section.module.parallax-3 {
 }
 
 /* services & booking  */
-
-
 
 /*  end of services & booking*/
 @media all and (min-width: 960px) {
