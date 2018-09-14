@@ -12,13 +12,20 @@ body {
   margin-bottom: 60px;
 }
 
-/* about lisa  */
-
-.card-img {
-  width:300px; /* you can use % */
-  height: auto;
+/* gallery  */
+.controls-top {
+  text-align: center; 
 }
-/* end about lisa */
+
+@media (min-width: 768px) {
+    .carousel-multi-item-2 .col-md-3 {
+        float: left;
+        width: 25%;
+        max-width: 100%; } }
+
+.carousel-multi-item-2 .card img {
+    border-radius: 2px; }
+/* end gallery */
 
 
 .jumbotron {
