@@ -12,6 +12,14 @@ body {
   margin-bottom: 60px;
 }
 
+/* about lisa  */
+
+.card-img {
+  width:300px; /* you can use % */
+  height: auto;
+}
+/* end about lisa */
+
 
 .jumbotron {
   background-image: url("https://image.ibb.co/iDysC9/IMG_20180329_141451485.jpg");
@@ -101,6 +109,39 @@ section.module.parallax-3 {
   background-size: cover;
   background-color: #604D53;
   background-blend-mode: screen;
+}
+
+.gallery {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-width: 33%;
+    -moz-column-width: 33%;
+    column-width: 33%; }
+.gallery .pics {
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease; }
+.gallery .animation {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1); }
+
+@media (max-width: 450px) {
+    .gallery {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+        -webkit-column-width: 100%;
+        -moz-column-width: 100%;
+        column-width: 100%;
+    }
+}
+
+@media (max-width: 400px) {
+    .btn.filter {
+        padding-left: 1.1rem;
+        padding-right: 1.1rem;
+    }
 }
 
 @media all and (min-width: 600px) {
