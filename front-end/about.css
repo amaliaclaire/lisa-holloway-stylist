@@ -12,42 +12,19 @@ body {
   margin-bottom: 60px;
 }
 
-/* gallery  */
-.controls-top {
-  text-align: center;
+
+/* about lisa  */
+
+.about-lisa-title{
+  text-align: center
+}
+.about-lisa-image {
+  width: 450px;
+  height: auto;
 }
 
-@media (min-width: 768px) {
-    .carousel-multi-item-2 .col-md-3 {
-        float: left;
-        width: 25%;
-        max-width: 100%; } }
+/* end of about lisa */
 
-.carousel-multi-item-2 .card img {
-    border-radius: 2px; }
-/* end gallery */
-
-
-.jumbotron {
-  background-image: url("https://image.ibb.co/iDysC9/IMG_20180329_141451485.jpg");
-  background-size: 100% 100%;
-  color: #604D53;
-  margin-bottom: 0;
-}
-.navbar-scroll {
-  background-color: #604D53;
-  transition: background-color 0.5s;
-}
-@media(max-width: 768px){
-    .navbar {background-color: #604D53 !important; }
-}
-/* ============================================================
-  PRIMARY STRUCTURE
-============================================================ */
-.parallax-container {
-  max-width: 960px;
-  margin: 0 auto;
-}
 
 
 
@@ -118,20 +95,7 @@ section.module.parallax-3 {
   background-blend-mode: screen;
 }
 
-.gallery {
-    -webkit-column-count: 3;
-    -moz-column-count: 3;
-    column-count: 3;
-    -webkit-column-width: 33%;
-    -moz-column-width: 33%;
-    column-width: 33%; }
-.gallery .pics {
-    -webkit-transition: all 350ms ease;
-    transition: all 350ms ease; }
-.gallery .animation {
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1); }
+
 
 @media (max-width: 450px) {
     .gallery {
