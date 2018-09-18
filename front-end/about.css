@@ -1,0 +1,218 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+/* gallery  */
+.controls-top {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+    .carousel-multi-item-2 .col-md-3 {
+        float: left;
+        width: 25%;
+        max-width: 100%; } }
+
+.carousel-multi-item-2 .card img {
+    border-radius: 2px; }
+/* end gallery */
+
+
+.jumbotron {
+  background-image: url("https://image.ibb.co/iDysC9/IMG_20180329_141451485.jpg");
+  background-size: 100% 100%;
+  color: #604D53;
+  margin-bottom: 0;
+}
+.navbar-scroll {
+  background-color: #604D53;
+  transition: background-color 0.5s;
+}
+@media(max-width: 768px){
+    .navbar {background-color: #604D53 !important; }
+}
+/* ============================================================
+  PRIMARY STRUCTURE
+============================================================ */
+.parallax-container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+
+
+/* ============================================================
+  SECTIONS
+============================================================ */
+section.module:last-child {
+  margin-bottom: 0;
+}
+section.module h2 {
+  margin-bottom: 40px;
+  font-family: "Roboto Slab", serif;
+  font-size: 30px;
+}
+section.module p {
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-weight: 300;
+}
+section.module p:last-child {
+  margin-bottom: 0;
+}
+section.module.content {
+  padding: 40px 0;
+  background-color: rgba(207,216,220,0.5);
+}
+section.module.content:last-child {
+  margin-bottom: 60px;
+}
+section.module.parallax {
+  padding: 240px 0;
+  background-position: 0 0;
+}
+section.module.parallax h1 {
+  color: #1e1e1e;
+  font-size: 48px;
+  line-height: 1;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px white;
+}
+section.module.parallax-1 {
+  background-image: url("https://www.go2convert.com/Converted/Download/981929078bab48508fdf35c28a05ad5a");
+  background-position: 50%, 0;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #604D53;
+  background-blend-mode: screen;
+}
+section.module.parallax-2 {
+  background-image: url("https://www.go2convert.com/Converted/Download/981929078bab48508fdf35c28a05ad5a");
+  background-position: 50% 0;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #604D53;
+  background-blend-mode: screen;
+}
+section.module.parallax-3 {
+  background-image: url("http://www.psd-dude.com/tutorials/resources-images/free-rain-and-raindrop-textures-for-photoshop/raindrops-window-background.jpg");
+  background-position: 50% 0;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #604D53;
+  background-blend-mode: screen;
+}
+
+.gallery {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-width: 33%;
+    -moz-column-width: 33%;
+    column-width: 33%; }
+.gallery .pics {
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease; }
+.gallery .animation {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1); }
+
+@media (max-width: 450px) {
+    .gallery {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+        -webkit-column-width: 100%;
+        -moz-column-width: 100%;
+        column-width: 100%;
+    }
+}
+
+@media (max-width: 400px) {
+    .btn.filter {
+        padding-left: 1.1rem;
+        padding-right: 1.1rem;
+    }
+}
+
+@media all and (min-width: 600px) {
+  section.module h2 {
+    font-size: 42px;
+  }
+  section.module p {
+    font-size: 20px;
+  }
+  section.module.parallax {
+    padding: 300px 0;
+  }
+  section.module.parallax h1 {
+    font-size: 96px;
+  }
+}
+
+/* services & booking  */
+
+/*  end of services & booking*/
+@media all and (min-width: 960px) {
+  section.module.parallax h1 {
+    font-size: 160px;
+  }
+}
+/*footer*/
+.footer .container-fluid {
+  height: auto;
+  background-color:  #D5C5C8;
+
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #FFDBDA
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px;
+}
+footer .container-fluid a {
+  display: inline-block;
+  color: black;
+  padding-left: 1em;
+
+}
+footer .container-fluid p {
+  display: inline-block;
+  color: black;
+  padding-left: 1em;
+  padding-right: 2em;
+}
+@media(max-width: 768px){
+    .col-md-4 {
+      text-align: center;
+      line-height: 30px;
+  }
+}
+.right {
+  text-align: right;
+}
+.center {
+  text-align: center;
+}
+.left {
+  text-align: left;
+}
