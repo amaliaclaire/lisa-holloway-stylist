@@ -18,6 +18,7 @@ html {
 }
 
 
+
 .navbar-scroll {
   background-color: rgba(0,123,255,0.4);
   transition: background-color 0.5s;
@@ -50,12 +51,47 @@ html {
 /* end landing page title */
 
 /* testimonals */
+.card {
+  border: none; 
+}
 .customer-testimonals {
   font-family: sans-serif;
   font-style: italic;
   text-align: center;
+  padding-bottom: 6em;
 }
 
+.card-title {
+  text-align: center;
+}
+
+.card-text {
+  text-align: center;
+}
+
+.section-card-1 {
+  position: absolute;
+  left: 150px;
+  border-radius: 10px;
+
+  /* border: 3px solid grey; */
+}
+
+.section-card-2 {
+  position: absolute;
+  left: 500px;
+  border-radius: 10px;
+
+  /* border: 3px solid pink; */
+}
+
+.section-card-3 {
+  position: absolute;
+  right: 150px;
+  border-radius: 10px;
+
+  /* border: 3px solid grey; */
+}
 /* end of testimonals */
 
 @media(max-width: 768px){
