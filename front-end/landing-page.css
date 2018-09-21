@@ -12,9 +12,52 @@ body {
   margin-bottom: 60px;
 }
 
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+
+.navbar-scroll {
+  background-color: rgba(0,123,255,0.4);
+  transition: background-color 0.5s;
+}
+
+.navbar-nav  {
+  width: 100px;
+  height: 100px;
+
+   position: absolute;
+   top: 4em;
+   bottom: 0;
+   left: 0;
+   right: 8em;
+
+   margin: auto;
+}
+
+/* landing page title */
+
+.lisa-holloway-title {
+  font-family: 'Delius Unicase', cursive;
+}
+
+.professional-hair-stylist {
+  font-family: sans-serif;
+  font-style: italic;
+}
+
+/* end landing page title */
+
+@media(max-width: 768px){
+    .navbar {background-color: #007bff !important; }
+}
+/*
+
+
 /* gallery  */
 .controls-top {
-  text-align: center; 
+  text-align: center;
 }
 
 @media (min-width: 768px) {
@@ -34,13 +77,14 @@ body {
   color: #604D53;
   margin-bottom: 0;
 }
-.navbar-scroll {
+/* .navbar-scroll {
   background-color: #604D53;
   transition: background-color 0.5s;
-}
+} */
 @media(max-width: 768px){
-    .navbar {background-color: #604D53 !important; }
+     }
 }
+/* .navbar {background-color: #604D53 !important; */
 /* ============================================================
   PRIMARY STRUCTURE
 ============================================================ */
@@ -168,12 +212,7 @@ section.module.parallax-3 {
 
 /* services & booking  */
 
-/*  end of services & booking*/
-@media all and (min-width: 960px) {
-  section.module.parallax h1 {
-    font-size: 160px;
-  }
-}
+
 /*footer*/
 .footer .container-fluid {
   height: auto;
@@ -206,13 +245,4 @@ footer .container-fluid p {
       text-align: center;
       line-height: 30px;
   }
-}
-.right {
-  text-align: right;
-}
-.center {
-  text-align: center;
-}
-.left {
-  text-align: left;
 }
