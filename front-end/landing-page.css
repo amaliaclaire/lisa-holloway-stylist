@@ -32,15 +32,14 @@ section.module.parallax-1 {
 }
 
 .navbar-nav  {
-  width: 100px;
+  width: 200px;
   height: 100px;
 
    position: absolute;
    top: 4em;
    bottom: 0;
    left: 0;
-   right: 8em;
-
+   right: 2em;
    margin: auto;
 }
 
