@@ -17,7 +17,14 @@ html {
   min-height: 100%;
 }
 
-
+section.module.parallax-1 {
+ background-image: url("https://i.postimg.cc/t4VV6xhF/Image_from_i_OS.jpg");   background-position: 50% 0;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: rgba(0,123,255,0.4);
+  background-blend-mode: screen;
+}
 
 .navbar-scroll {
   background-color: rgba(0,123,255,0.4);
@@ -52,7 +59,7 @@ html {
 
 /* testimonals */
 .card {
-  border: none; 
+  border: none;
 }
 .customer-testimonals {
   font-family: sans-serif;
@@ -92,8 +99,144 @@ html {
 
   /* border: 3px solid grey; */
 }
+
 /* end of testimonals */
 
+/* contact section */
+
+.contact {
+  background-color: #fee4dc;
+  padding-top: 3em;
+  padding-bottom: 5em;
+
+}
+.contact h1 {
+  font-family: sans-serif;
+  font-style: italic;
+  line-height: 3em;
+}
+
+
+/* footer */
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i,800|Vollkorn:400,400i,600,600i,700,700i');
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Vollkorn', 'Poppins', sans-serif, serif;
+}
+
+ul {
+    list-style: none;
+}
+
+/* footer */
+
+.contact-area {
+    position: relative;
+}
+
+.contact-us {
+    /* background: gray url(https://subtlepatterns.com/patterns/geometry2.png) repeat 0 0; */
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    height: 300px;
+    padding: 60px 0;
+    box-sizing: border-box;
+    -webkit-animation: slide 20s linear infinite;
+}
+
+@-webkit-keyframes slide {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -400px 0;
+    }
+}
+
+.contact-list li i.fa {
+    color: #000;
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.contact-list li {
+    margin-bottom: 15px;
+}
+
+.contact-list li a {
+    color: #000;
+    font-size: 16px;
+    -webkit-transition: all 350ms ease;
+    -moz-transition: all 350ms ease;
+    -ms-transition: all 350ms ease;
+    -o-transition: all 350ms ease;
+    transition: all 350ms ease;
+}
+
+.contact-list li a:hover {
+    background-color: #FF7779;
+    text-decoration: none;
+}
+
+.social-content {
+    position: relative;
+    z-index: 2;
+    max-width: 1578px;
+    background: #00a3de;
+    border-radius: 5px;
+    text-align: center;
+    padding: 50px 20px;
+    margin: 0 auto;
+}
+
+.social-title {
+    display: block;
+    color: #0477ae;
+    margin-bottom: 20px;
+    letter-spacing: -1px;
+}
+
+.socials {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    border: 1px solid #5cc2e9;
+    max-width: 1444px;
+    margin: 0 auto;
+}
+
+.socials .item:first-child {
+    border-left: none;
+}
+
+.socials .item {
+    background: rgba(37, 37, 37, .1);
+    border-left: 1px solid #5cc2e9;
+    display: table-cell;
+    height: 73px;
+    color: #fff;
+    vertical-align: middle;
+    text-align: center;
+    transition: background .2s ease-out;
+}
+
+
+/* End footer */
+
+/* end of footer */
+
+
+
+
+/*end of contact section   */
 @media(max-width: 768px){
     .navbar {background-color: #007bff !important; }
 }
@@ -117,7 +260,7 @@ html {
 
 
 .jumbotron {
-  background-image: url("https://image.ibb.co/iDysC9/IMG_20180329_141451485.jpg");
+  /* background-image: url("https://image.ibb.co/iDysC9/IMG_20180329_141451485.jpg"); */
   background-size: 100% 100%;
   color: #604D53;
   margin-bottom: 0;
@@ -180,7 +323,7 @@ section.module.parallax h1 {
   text-shadow: 0 0 10px white;
 }
 section.module.parallax-1 {
-  background-image: url("https://www.go2convert.com/Converted/Download/981929078bab48508fdf35c28a05ad5a");
+  background-image: url("https://i.postimg.cc/t4VV6xhF/Image_from_i_OS.jpg");
   background-position: 50%, 0;
   background-repeat: repeat;
   background-attachment: fixed;
