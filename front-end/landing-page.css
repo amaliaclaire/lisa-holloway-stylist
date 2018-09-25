@@ -122,14 +122,22 @@ section.module.parallax-1 {
 
 .contact {
   background-color: #fee4dc;
-  padding-top: 3em;
+  padding-top: 1em;
   padding-bottom: 5em;
 
 }
 .contact h1 {
-  font-family: sans-serif;
-  font-style: italic;
-  line-height: 3em;
+  font-family: 'Crimson Text', serif;
+  /* line-height: 3em; */
+}
+
+section h5 {
+  font-family: 'Crimson Text', serif;
+}
+
+.contact-container {
+  padding-top: 5em;
+
 }
 
 
