@@ -69,18 +69,27 @@ section.module.parallax-1 {
   border: none;
 }
 .customer-testimonals {
-  font-family: sans-serif;
-  font-style: italic;
+  font-family: 'Kaushan Script';
+  /* font-style: italic; */
+  font-size: 65px;
   text-align: center;
-  padding-bottom: 6em;
+  padding-bottom: 1em;
+
 }
 
 .card-title {
   text-align: center;
+  font-weight: bold;
+  font-family: 'Crimson Text', serif;
+
+
 }
 
 .card-text {
   text-align: center;
+  font-family: 'Crimson Text', serif;
+  font-size: 18px;
+
 }
 
 .section-card-1 {
