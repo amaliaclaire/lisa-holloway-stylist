@@ -36,22 +36,30 @@ section.module.parallax-1 {
   height: 100px;
 
    position: absolute;
-   top: 4em;
+   top: 1.7em;
    bottom: 0;
    left: 0;
    right: 2em;
    margin: auto;
+
+   font-family: 'Crimson Text', serif;
+   font-size: 25px;
 }
 
 /* landing page title */
 
 .lisa-holloway-title {
-  font-family: 'Delius Unicase', cursive;
+  font-family: 'Kaushan Script';
+  text-align: center;
+
+
+
 }
 
 .professional-hair-stylist {
-  font-family: sans-serif;
+  font-family: 'Crimson Text', serif;
   font-style: italic;
+  text-align: center;
 }
 
 /* end landing page title */
