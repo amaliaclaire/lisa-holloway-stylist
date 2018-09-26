@@ -219,8 +219,16 @@ section h5 {
 
 
 /* footer */
-.bg-primary {
- background-color: #000 !important;
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.py-3 {
+  background-color: pink !important;
+
 }
 
 .bg-circle
@@ -329,77 +337,12 @@ ul {
     text-decoration: none;
 }
 
-.social-content {
-    position: relative;
-    z-index: 2;
-    max-width: 1578px;
-    background: #00a3de;
-    border-radius: 5px;
-    text-align: center;
-    padding: 50px 20px;
-    margin: 0 auto;
-}
-
-.social-title {
-    display: block;
-    color: #0477ae;
-    margin-bottom: 20px;
-    letter-spacing: -1px;
-}
-
-.socials {
-    display: table;
-    width: 100%;
-    table-layout: fixed;
-    border: 1px solid #5cc2e9;
-    max-width: 1444px;
-    margin: 0 auto;
-}
-
-.socials .item:first-child {
-    border-left: none;
-}
-
-.socials .item {
-    background: rgba(37, 37, 37, .1);
-    border-left: 1px solid #5cc2e9;
-    display: table-cell;
-    height: 73px;
-    color: #fff;
-    vertical-align: middle;
-    text-align: center;
-    transition: background .2s ease-out;
-}
-
-
-/* End footer */
-
-/* end of footer */
-
-
 
 
 /*end of contact section   */
 @media(max-width: 768px){
     .navbar {background-color: #007bff !important; }
 }
-/*
-
-
-/* gallery  */
-.controls-top {
-  text-align: center;
-}
-
-@media (min-width: 768px) {
-    .carousel-multi-item-2 .col-md-3 {
-        float: left;
-        width: 25%;
-        max-width: 100%; } }
-
-.carousel-multi-item-2 .card img {
-    border-radius: 2px; }
-/* end gallery */
 
 
 .jumbotron {
@@ -538,42 +481,5 @@ section.module.parallax-3 {
   }
   section.module.parallax h1 {
     font-size: 96px;
-  }
-}
-
-/* services & booking  */
-
-
-/*footer*/
-.footer .container-fluid {
-  height: auto;
-  background-color:  #D5C5C8;
-
-}
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  background-color: #FFDBDA
-  /* Set the fixed height of the footer here */
-  height: 60px;
-  line-height: 60px;
-}
-footer .container-fluid a {
-  display: inline-block;
-  color: black;
-  padding-left: 1em;
-
-}
-footer .container-fluid p {
-  display: inline-block;
-  color: black;
-  padding-left: 1em;
-  padding-right: 2em;
-}
-@media(max-width: 768px){
-    .col-md-4 {
-      text-align: center;
-      line-height: 30px;
   }
 }
