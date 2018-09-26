@@ -156,10 +156,14 @@ section h5 {
 .address {
   text-align: center;
   font-weight: bold;
+  font-family: 'Crimson Text', serif;
+
 }
 
 .address-text {
   text-align: center;
+  font-family: 'Crimson Text', serif;
+
 }
 
 .fa-phone{
@@ -177,10 +181,14 @@ section h5 {
 .phone {
   text-align: center;
   font-weight: bold;
+  font-family: 'Crimson Text', serif;
+
 }
 
 .phone-text {
   text-align: center;
+  font-family: 'Crimson Text', serif;
+
 }
 
 .fa-envelope {
@@ -198,15 +206,61 @@ section h5 {
 .email{
   text-align: center;
   font-weight: bold;
+  font-family: 'Crimson Text', serif;
+
 }
 
 .email-text {
   text-align: center;
+  font-family: 'Crimson Text', serif;
+
 }
 /* end of contact section */
 
 
 /* footer */
+.bg-primary {
+ background-color: #000 !important;
+}
+
+.bg-circle
+{
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  padding: 14px 4px;
+  color: #ececec;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.bg-circle-outline
+{
+  width: 50px;
+  height: 50px;
+  color:smoke;
+  padding: 8px 2px;
+  border: 2px solid;
+  border-color: smoke;
+  border-radius: 50%;
+}
+
+
+.bg-circle a, a:hover, .media a:focus
+{
+  text-decoration: none !important;
+  outline: none;
+  color: #ececec;
+}
+.bg-circle-outline a, a:hover, .media a:focus
+{
+  text-decoration: none !important;
+  outline: none;
+  color: #ececec;
+}
+
+
+/* end of footer */
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i,800|Vollkorn:400,400i,600,600i,700,700i');
 * {
