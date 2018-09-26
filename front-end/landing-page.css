@@ -140,6 +140,7 @@ section h5 {
 
 }
 
+
 .fa-address-book {
   background: grey;
   width: 100px;
@@ -149,9 +150,59 @@ section h5 {
   vertical-align: middle;
   border-radius: 50%;
   padding: 30px;
-
+  color: white;
 }
 
+.address {
+  text-align: center;
+  font-weight: bold;
+}
+
+.address-text {
+  text-align: center;
+}
+
+.fa-phone{
+  background: grey;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  vertical-align: middle;
+  border-radius: 50%;
+  padding: 30px;
+  color: white;
+}
+
+.phone {
+  text-align: center;
+  font-weight: bold;
+}
+
+.phone-text {
+  text-align: center;
+}
+
+.fa-envelope {
+  background: grey;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  vertical-align: middle;
+  border-radius: 50%;
+  padding: 30px;
+  color: white;
+}
+
+.email{
+  text-align: center;
+  font-weight: bold;
+}
+
+.email-text {
+  text-align: center;
+}
 /* end of contact section */
 
 
