@@ -155,7 +155,7 @@ section h5 {
   line-height: 100px;
   vertical-align: middle;
   border-radius: 50%;
-  padding: 30px;
+  padding: 28px;
   color: white;
   position: absolute;
   right: 150px;
@@ -165,12 +165,14 @@ section h5 {
   text-align: center;
   font-weight: bold;
   font-family: 'Crimson Text', serif;
+  padding: 1.5em;
 
 }
 
 .address-text {
   text-align: center;
   font-family: 'Crimson Text', serif;
+  padding: 3em;
 
 }
 
@@ -182,7 +184,7 @@ section h5 {
   line-height: 100px;
   vertical-align: middle;
   border-radius: 50%;
-  padding: 30px;
+  padding: 28px;
   color: white;
   position: absolute;
   right: 150px;
@@ -192,12 +194,14 @@ section h5 {
   text-align: center;
   font-weight: bold;
   font-family: 'Crimson Text', serif;
+  padding: 1.5em;
 
 }
 
 .phone-text {
   text-align: center;
   font-family: 'Crimson Text', serif;
+  padding: 3em;
 
 }
 
@@ -209,7 +213,7 @@ section h5 {
   line-height: 100px;
   vertical-align: middle;
   border-radius: 50%;
-  padding: 30px;
+  padding: 28px;
   color: white;
   position: absolute;
   right: 150px;
@@ -219,12 +223,14 @@ section h5 {
   text-align: center;
   font-weight: bold;
   font-family: 'Crimson Text', serif;
+  padding: 1.5em;
 
 }
 
 .email-text {
   text-align: center;
   font-family: 'Crimson Text', serif;
+  padding: 3em;
 
 }
 /* end of contact section */
