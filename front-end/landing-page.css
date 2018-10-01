@@ -46,6 +46,12 @@ section.module.parallax-1 {
    font-size: 25px;
 }
 
+.logo-name {
+  font-family: 'Kaushan Script';
+
+
+}
+
 /* landing page title */
 
 .lisa-holloway-title {
@@ -227,7 +233,7 @@ footer {
 }
 
 .py-3 {
-  background-color: pink !important;
+  background-color: white !important;
 
 }
 
@@ -265,6 +271,13 @@ footer {
   text-decoration: none !important;
   outline: none;
   color: #ececec;
+}
+
+.footer-info {
+  border-style: bold;
+  font-family: 'Crimson Text', serif;
+  font-size: 1.5em;
+  text-align: center;
 }
 
 
