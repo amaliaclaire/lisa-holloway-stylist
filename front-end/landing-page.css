@@ -129,12 +129,11 @@ section.module.parallax-1 {
 .contact {
   background-color: #fee4dc;
   padding-top: 1em;
-  padding-bottom: 5em;
+  padding-bottom: 2em;
 
 }
 .contact h1 {
   font-family: 'Crimson Text', serif;
-  /* line-height: 3em; */
 }
 
 section h5 {
@@ -173,6 +172,7 @@ section h5 {
   text-align: center;
   font-family: 'Crimson Text', serif;
   padding: 3em;
+  font-size: 1em;
 
 }
 
@@ -195,6 +195,8 @@ section h5 {
   font-weight: bold;
   font-family: 'Crimson Text', serif;
   padding: 1.5em;
+  font-size: 1em;
+
 
 }
 
@@ -231,9 +233,13 @@ section h5 {
   text-align: center;
   font-family: 'Crimson Text', serif;
   padding: 3em;
+  font-size: 1em;
 
 }
 /* end of contact section */
+
+/* social media */
+/* ending social media */
 
 
 /* footer */
@@ -242,7 +248,7 @@ footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-}
+  }
 
 .py-3 {
   background-color: white !important;
