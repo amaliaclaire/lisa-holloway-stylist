@@ -58,6 +58,8 @@ section.module.parallax-1 {
   font-family: 'Kaushan Script';
   text-align: center;
 
+
+
 }
 
 .professional-hair-stylist {
@@ -69,33 +71,8 @@ section.module.parallax-1 {
 /* end landing page title */
 
 
-/* service area */
-
-.scissors-section {
-  padding: 3em;
-}
-
-.haircut-section  {
-  text-align: center;
-}
-
-.hair-color-section  {
-  text-align: center;
-}
-
-.treatment-section{
-  text-align: center;
-  padding-bottom: 5em; 
-}
 
 
-
-/* end of service area */
-
-/* button */
-
-
-/* end of button */
 
 /* footer */
 
