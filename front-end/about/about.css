@@ -12,19 +12,192 @@ body {
   margin-bottom: 60px;
 }
 
-
-/* about lisa  */
-
-.about-lisa-title{
-  text-align: center
-}
-.about-lisa-image {
-  width: 450px;
-  height: auto;
+html {
+  position: relative;
+  min-height: 100%;
 }
 
-/* end of about lisa */
+section.module.parallax-1 {
+ background-image: url("https://s3-media2.fl.yelpcdn.com/bphoto/YEVehnE3A6v0QQ14Wl5LTg/ls.jpg");   background-position: 50% 0;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: rgba(0,123,255,0.4);
+  background-blend-mode: screen;
+}
 
+.navbar-scroll {
+  background-color: rgba(0,123,255,0.4);
+  transition: background-color 0.5s;
+}
+
+.navbar-nav  {
+  width: 200px;
+  height: 100px;
+
+   position: absolute;
+   top: 1.7em;
+   bottom: 0;
+   left: 0;
+   right: 2em;
+   margin: auto;
+
+   font-family: 'Crimson Text', serif;
+   font-size: 25px;
+}
+
+.logo-name {
+  font-family: 'Kaushan Script';
+
+
+}
+
+/* landing page title */
+
+.lisa-holloway-title {
+  font-family: 'Kaushan Script';
+  text-align: center;
+
+
+
+}
+
+
+
+/* about lisa */
+.headline {
+font-family: Calibri, "Helvetica", san-serif;
+line-height: 1.5em;
+color: black;
+font-size: 20px;
+}
+h1:after
+{
+    content:' ';
+    display:block;
+    border:1px solid black;
+}
+
+.about-lisa {
+  padding: 15em;
+}
+
+h1 {
+  text-align: center;
+}
+.align-center {
+     text-align: center;
+ }
+ /*CENTER DIV*/
+ .center {
+     margin: 0 auto;
+     width: 80%;
+   }
+
+   .lisa-photo {
+     height: auto;
+     width: auto;
+     max-width: 300px;
+     max-height: 300px;
+   }
+
+   .image-1 {
+     height: auto;
+     width: auto;
+     max-width: 300px;
+     max-height: 300px;
+   }
+   .image-2 {
+     height: auto;
+     width: auto;
+     max-width: 300px;
+     max-height: 300px;
+   }
+/* end about lisa */
+
+
+
+
+
+/* footer */
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  }
+
+.py-3 {
+  background-color: white !important;
+
+}
+
+
+
+
+
+.footer-info {
+  border-style: bold;
+  font-family: 'Crimson Text', serif;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+
+/* end of footer */
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i,800|Vollkorn:400,400i,600,600i,700,700i');
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Vollkorn', 'Poppins', sans-serif, serif;
+}
+
+ul {
+    list-style: none;
+}
+
+/* footer */
+
+
+
+@-webkit-keyframes slide {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -400px 0;
+    }
+}
+
+
+/*end of contact section   */
+@media(max-width: 768px){
+    .navbar {background-color: #007bff !important; }
+}
+
+
+
+/* .navbar-scroll {
+  background-color: #604D53;
+  transition: background-color 0.5s;
+} */
+@media(max-width: 768px){
+     }
+}
+/* .navbar {background-color: #604D53 !important; */
+/* ============================================================
+  PRIMARY STRUCTURE
+============================================================ */
+.parallax-container {
+  max-width: 960px;
+  margin: 0 auto;
+}
 
 
 
@@ -68,7 +241,7 @@ section.module.parallax h1 {
   text-shadow: 0 0 10px white;
 }
 section.module.parallax-1 {
-  background-image: url("https://www.go2convert.com/Converted/Download/981929078bab48508fdf35c28a05ad5a");
+  background-image: url("https://s3-media2.fl.yelpcdn.com/bphoto/Y7XOb6QLPB-Y1NUEeFNIJA/o.jpg");
   background-position: 50%, 0;
   background-repeat: repeat;
   background-attachment: fixed;
@@ -76,24 +249,8 @@ section.module.parallax-1 {
   background-color: #604D53;
   background-blend-mode: screen;
 }
-section.module.parallax-2 {
-  background-image: url("https://www.go2convert.com/Converted/Download/981929078bab48508fdf35c28a05ad5a");
-  background-position: 50% 0;
-  background-repeat: repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-color: #604D53;
-  background-blend-mode: screen;
-}
-section.module.parallax-3 {
-  background-image: url("http://www.psd-dude.com/tutorials/resources-images/free-rain-and-raindrop-textures-for-photoshop/raindrops-window-background.jpg");
-  background-position: 50% 0;
-  background-repeat: repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-color: #604D53;
-  background-blend-mode: screen;
-}
+
+
 
 
 
@@ -128,55 +285,4 @@ section.module.parallax-3 {
   section.module.parallax h1 {
     font-size: 96px;
   }
-}
-
-/* services & booking  */
-
-/*  end of services & booking*/
-@media all and (min-width: 960px) {
-  section.module.parallax h1 {
-    font-size: 160px;
-  }
-}
-/*footer*/
-.footer .container-fluid {
-  height: auto;
-  background-color:  #D5C5C8;
-
-}
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  background-color: #FFDBDA
-  /* Set the fixed height of the footer here */
-  height: 60px;
-  line-height: 60px;
-}
-footer .container-fluid a {
-  display: inline-block;
-  color: black;
-  padding-left: 1em;
-
-}
-footer .container-fluid p {
-  display: inline-block;
-  color: black;
-  padding-left: 1em;
-  padding-right: 2em;
-}
-@media(max-width: 768px){
-    .col-md-4 {
-      text-align: center;
-      line-height: 30px;
-  }
-}
-.right {
-  text-align: right;
-}
-.center {
-  text-align: center;
-}
-.left {
-  text-align: left;
 }

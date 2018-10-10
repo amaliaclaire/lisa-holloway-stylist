@@ -2,30 +2,31 @@ html {
   position: relative;
   min-height: 100%;
 }
+
+* {
+  padding: 0;
+  margin: 0;
+}
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
 }
-.jumbotron {
-  background-image: url("https://www.smak.co.za/images/bg.jpg");
-  background-size: 100% 100%;
-  color: #b0bec5;
-  margin-bottom: 0;
+
+
+/* about lisa  */
+
+.about-lisa-title{
+  text-align: center
 }
-.navbar-scroll {
-  background-color: rgba(0,123,255,0.4);
-  transition: background-color 0.5s;
+.about-lisa-image {
+  width: 450px;
+  height: auto;
 }
-@media(max-width: 768px){
-    .navbar {background-color: #007bff !important; }
-}
-/* ============================================================
-  PRIMARY STRUCTURE
-============================================================ */
-.parallax-container {
-  max-width: 960px;
-  margin: 0 auto;
-}
+
+/* end of about lisa */
+
+
+
 
 /* ============================================================
   SECTIONS
@@ -61,26 +62,27 @@ section.module.parallax h1 {
   color: #1e1e1e;
   font-size: 48px;
   line-height: 1;
-  font-weight: 700;
+  font-weight: 500;
   text-align: center;
   text-transform: uppercase;
   text-shadow: 0 0 10px white;
 }
 section.module.parallax-1 {
- background-image: url("https://i.postimg.cc/t4VV6xhF/Image_from_i_OS.jpg");   background-position: 50% 0;
+  background-image: url("https://www.go2convert.com/Converted/Download/981929078bab48508fdf35c28a05ad5a");
+  background-position: 50%, 0;
   background-repeat: repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-color: rgba(0,123,255,0.4);
+  background-color: #604D53;
   background-blend-mode: screen;
 }
 section.module.parallax-2 {
-  background-image: url("http://www.planwallpaper.com/static/images/Fall-Nature-Background-Pictures.jpg");
+  background-image: url("https://www.go2convert.com/Converted/Download/981929078bab48508fdf35c28a05ad5a");
   background-position: 50% 0;
   background-repeat: repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-color: rgba(0,123,255,0.4);
+  background-color: #604D53;
   background-blend-mode: screen;
 }
 section.module.parallax-3 {
@@ -89,8 +91,28 @@ section.module.parallax-3 {
   background-repeat: repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-color: rgba(0,123,255,0.4);
+  background-color: #604D53;
   background-blend-mode: screen;
+}
+
+
+
+@media (max-width: 450px) {
+    .gallery {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+        -webkit-column-width: 100%;
+        -moz-column-width: 100%;
+        column-width: 100%;
+    }
+}
+
+@media (max-width: 400px) {
+    .btn.filter {
+        padding-left: 1.1rem;
+        padding-right: 1.1rem;
+    }
 }
 
 @media all and (min-width: 600px) {
@@ -107,6 +129,10 @@ section.module.parallax-3 {
     font-size: 96px;
   }
 }
+
+/* services & booking  */
+
+/*  end of services & booking*/
 @media all and (min-width: 960px) {
   section.module.parallax h1 {
     font-size: 160px;
@@ -115,24 +141,27 @@ section.module.parallax-3 {
 /*footer*/
 .footer .container-fluid {
   height: auto;
+  background-color:  #D5C5C8;
+
 }
 .footer {
   position: absolute;
   bottom: 0;
   width: 100%;
+  background-color: #FFDBDA
   /* Set the fixed height of the footer here */
   height: 60px;
   line-height: 60px;
 }
 footer .container-fluid a {
   display: inline-block;
-  color: #ddd;
+  color: black;
   padding-left: 1em;
 
 }
 footer .container-fluid p {
   display: inline-block;
-  color: #ddd;
+  color: black;
   padding-left: 1em;
   padding-right: 2em;
 }
