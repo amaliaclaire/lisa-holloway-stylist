@@ -57,9 +57,6 @@ section.module.parallax-1 {
 .lisa-holloway-title {
   font-family: 'Kaushan Script';
   text-align: center;
-
-
-
 }
 
 
@@ -67,23 +64,29 @@ section.module.parallax-1 {
 /* about lisa */
 .headline {
 font-family: Calibri, "Helvetica", san-serif;
-line-height: 1.5em;
+line-height: 1em;
 color: black;
-font-size: 20px;
+font-size: 30px;
+
 }
+
 h1:after
 {
+    margin: 1em;
     content:' ';
     display:block;
     border:1px solid black;
 }
 
 .about-lisa {
-  padding: 15em;
+  padding: 3em;
+
 }
 
 h1 {
   text-align: center;
+  font-family: 'Crimson Text', serif;
+
 }
 .align-center {
      text-align: center;
@@ -93,27 +96,61 @@ h1 {
      margin: 0 auto;
      width: 80%;
    }
+  .column {
+      float: right;
+      width: 33.33%;
+      padding: 5px;
+  }
 
-   .lisa-photo {
-     height: auto;
-     width: auto;
-     max-width: 300px;
-     max-height: 300px;
-   }
+  /* Clearfix (clear floats) */
+  .row::after {
+      content: "";
+      clear: both;
+      display: table;
+  }
 
-   .image-1 {
-     height: auto;
-     width: auto;
-     max-width: 300px;
-     max-height: 300px;
-   }
-   .image-2 {
-     height: auto;
-     width: auto;
-     max-width: 300px;
-     max-height: 300px;
-   }
+  .lisa-speciality {
+    padding-bottom: 1em;
+    font-family: 'Crimson Text', serif;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .btn {
+    text: center;
+  }
+  a {
+    color: white;
+    text-decoration: none !important;
+  }
+  a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: white;
+}
+
+/* selected link */
+a:active {
+  color: white;
+}
 /* end about lisa */
+
+/* lisa description */
+
+.about-description {
+  padding: 3em;
+}
+
+/* end lisa description */
+
 
 
 
