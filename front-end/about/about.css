@@ -72,11 +72,11 @@ font-size: 30px;
 
 h1:after
 {
-    margin: 1em;
-    content:' ';
-    display:block;
-    border:1px solid black;
+  content:' ';
+   display:block;
+   border:1px solid black;
 }
+
 
 .about-lisa {
   padding: 3em;
@@ -119,6 +119,7 @@ h1 {
   .btn {
     text: center;
     font-family: 'Crimson Text', serif;
+    border-radius: 0; 
   }
   a {
     color: white;
@@ -128,21 +129,21 @@ h1 {
     color: white;
 }
 
-/* visited link */
-a:visited {
-  color: black;
-}
+  /* visited link */
+  a:visited {
+    color: black;
+  }
 
-/* mouse over link */
-a:hover {
-  color: white;
-}
+  /* mouse over link */
+  a:hover {
+    color: white;
+  }
 
-/* selected link */
-a:active {
-  color: white;
-}
-/* end about lisa */
+  /* selected link */
+  a:active {
+    color: white;
+  }
+  /* end about lisa */
 
 /* lisa description */
 
