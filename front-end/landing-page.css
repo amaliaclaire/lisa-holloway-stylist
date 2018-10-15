@@ -135,14 +135,13 @@ section.module.parallax-1 {
   text-align: center;
   border-style: dashed;
   border-radius: 25px;
-
   margin-left: auto;
   margin-right: auto;
   width: 30em;
-  height: 23em;
-
+  height: 30em;
   padding-bottom: 2em;
   font-family: 'Crimson Text', serif;
+  border-color: #977E25
 
 }
 
