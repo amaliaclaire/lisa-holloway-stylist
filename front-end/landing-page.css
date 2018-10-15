@@ -124,17 +124,38 @@ section.module.parallax-1 {
 
 /* end of testimonals */
 
+.padding {
+  padding: 15em;
+}
 /* contact section */
 
 .contact {
+
+  padding-top: 1em;
   text-align: center;
   border-style: dashed;
+  border-radius: 25px;
+
   margin-left: auto;
-   margin-right: auto;
+  margin-right: auto;
   width: 30em;
-  height: 25em;
+  height: 23em;
 
+  padding-bottom: 2em;
+  font-family: 'Crimson Text', serif;
 
+}
+
+.contact-title {
+  font-family: 'Kaushan Script';
+}
+
+.new-clients {
+  color: #977E25
+}
+
+.email {
+  color: #977E25
 }
 
 
