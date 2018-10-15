@@ -63,7 +63,7 @@ section.module.parallax-1 {
 }
 
 .professional-hair-stylist {
-  font-family: 'Crimson Text', serif;
+  font-family: 'Playfair Display', serif;
   font-style: italic;
   text-align: center;
 }
@@ -127,115 +127,17 @@ section.module.parallax-1 {
 /* contact section */
 
 .contact {
-  background-color: #fee4dc;
-  padding-top: 1em;
-  padding-bottom: 2em;
-
-}
-.contact h1 {
-  font-family: 'Crimson Text', serif;
-}
-
-section h5 {
-  font-family: 'Crimson Text', serif;
-}
-
-.contact-container {
-  padding-top: 5em;
-
-}
-
-
-.fa-address-book {
-  background: grey;
-  width: 100px;
-  height: 100px;
   text-align: center;
-  line-height: 100px;
-  vertical-align: middle;
-  border-radius: 50%;
-  padding: 28px;
-  color: white;
-  position: absolute;
-  right: 150px;
-}
-
-.address {
-  text-align: center;
-  font-weight: bold;
-  font-family: 'Crimson Text', serif;
-  padding: 1.5em;
-
-}
-
-.address-text {
-  text-align: center;
-  font-family: 'Crimson Text', serif;
-  padding: 3em;
-  font-size: 1em;
-
-}
-
-.fa-phone{
-  background: grey;
-  width: 100px;
-  height: 100px;
-  text-align: center;
-  line-height: 100px;
-  vertical-align: middle;
-  border-radius: 50%;
-  padding: 28px;
-  color: white;
-  position: absolute;
-  right: 150px;
-}
-
-.phone {
-  text-align: center;
-  font-weight: bold;
-  font-family: 'Crimson Text', serif;
-  padding: 1.5em;
-  font-size: 1em;
+  border-style: dashed;
+  margin-left: auto;
+   margin-right: auto;
+  width: 30em;
+  height: 25em;
 
 
 }
 
-.phone-text {
-  text-align: center;
-  font-family: 'Crimson Text', serif;
-  padding: 3em;
 
-}
-
-.fa-envelope {
-  background: grey;
-  width: 100px;
-  height: 100px;
-  text-align: center;
-  line-height: 100px;
-  vertical-align: middle;
-  border-radius: 50%;
-  padding: 28px;
-  color: white;
-  position: absolute;
-  right: 150px;
-}
-
-.email{
-  text-align: center;
-  font-weight: bold;
-  font-family: 'Crimson Text', serif;
-  padding: 1.5em;
-
-}
-
-.email-text {
-  text-align: center;
-  font-family: 'Crimson Text', serif;
-  padding: 3em;
-  font-size: 1em;
-
-}
 /* end of contact section */
 
 /* social media */
