@@ -34,16 +34,14 @@ section.module.parallax-1 {
 .navbar-nav  {
   width: 200px;
   height: 100px;
-
-   position: absolute;
-   top: 1.7em;
-   bottom: 0;
-   left: 0;
-   right: 2em;
-   margin: auto;
-
-   font-family: 'Crimson Text', serif;
-   font-size: 25px;
+  position: absolute;
+  top: 1.7em;
+  bottom: 0;
+  left: 0;
+  right: 2em;
+  margin: auto;
+  font-family: 'Crimson Text', serif;
+  font-size: 25px;
 }
 
 .logo-name {
@@ -55,11 +53,8 @@ section.module.parallax-1 {
 /* landing page title */
 
 .lisa-holloway-title {
-  font-family: 'Kaushan Script';
-  text-align: center;
-
-
-
+  font-family: 'Kaushan Script', cursive;
+  text-align: center;7
 }
 
 .professional-hair-stylist {
@@ -75,7 +70,8 @@ section.module.parallax-1 {
   border: none;
 }
 .customer-testimonals {
-  font-family: 'Kaushan Script';
+  padding: 1em;
+  font-family: 'Kaushan Script', cursive;
   /* font-style: italic; */
   font-size: 65px;
   text-align: center;
@@ -83,18 +79,22 @@ section.module.parallax-1 {
 
 }
 
+.fa-quote-left {
+  padding: 3px;
+}
 .card-title {
+  padding: 1em; 
   text-align: center;
   font-weight: bold;
   font-family: 'Crimson Text', serif;
-
 
 }
 
 .card-text {
   text-align: center;
   font-family: 'Crimson Text', serif;
-  font-size: 18px;
+  font-size: 20px;
+  letter-spacing: 2px;
 
 }
 
@@ -125,7 +125,7 @@ section.module.parallax-1 {
 /* end of testimonals */
 
 .padding {
-  padding: 15em;
+  padding: 18em;
 }
 /* contact section */
 
@@ -163,6 +163,10 @@ section.module.parallax-1 {
 /* social media */
 /* ending social media */
 
+.padding-2 {
+  padding: 7em;
+}
+
 
 /* footer */
 
@@ -177,27 +181,6 @@ footer {
 
 }
 
-.bg-circle
-{
-  display: inline-block;
-  width: 60px;
-  height: 60px;
-  padding: 14px 4px;
-  color: #ececec;
-  text-align: center;
-  border-radius: 50%;
-}
-
-.bg-circle-outline
-{
-  width: 50px;
-  height: 50px;
-  color:smoke;
-  padding: 8px 2px;
-  border: 2px solid;
-  border-color: smoke;
-  border-radius: 50%;
-}
 
 
 .bg-circle a, a:hover, .media a:focus
