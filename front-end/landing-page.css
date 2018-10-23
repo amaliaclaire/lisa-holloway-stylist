@@ -17,6 +17,7 @@ html {
   min-height: 100%;
 }
 
+
 section.module.parallax-1 {
  background-image: url("https://i.postimg.cc/t4VV6xhF/Image_from_i_OS.jpg");   background-position: 50% 0;
   background-repeat: repeat;
@@ -46,7 +47,6 @@ section.module.parallax-1 {
 
 .logo-name {
   font-family: 'Kaushan Script';
-
 
 }
 
@@ -83,7 +83,7 @@ section.module.parallax-1 {
   padding: 3px;
 }
 .card-title {
-  padding: 1em; 
+  padding: 1em;
   text-align: center;
   font-weight: bold;
   font-family: 'Crimson Text', serif;
@@ -131,14 +131,14 @@ section.module.parallax-1 {
 
 .contact {
 
-  padding-top: 1em;
+  padding-top: 5em;
   text-align: center;
   border-style: dashed;
   border-radius: 25px;
   margin-left: auto;
   margin-right: auto;
-  width: 30em;
-  height: 30em;
+  width: 31em;
+  height: 40em;
   padding-bottom: 2em;
   font-family: 'Crimson Text', serif;
   border-color: #977E25
@@ -150,12 +150,23 @@ section.module.parallax-1 {
 }
 
 .new-clients {
-  color: #977E25
+  color: #977E25;
+  font-size: 20px;
 }
 
 .email {
-  color: #977E25
+  color: #977E25;
+  font-size: 20px;
 }
+
+.summer-specials {
+  font-size: 20px;
+}
+
+.address {
+  font-size: 20px;
+}
+
 
 
 /* end of contact section */
@@ -168,6 +179,99 @@ section.module.parallax-1 {
 }
 
 
+/* Book Online */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+  .lisa-speciality {
+    padding-bottom: 1em;
+    font-family: 'Crimson Text', serif;
+    font-size: 23px;
+    text-align: center;
+  }
+
+  .btn {
+    text: center;
+    font-family: 'Crimson Text', serif;
+    border-radius: 0;
+  }
+  a {
+    color: white;
+    text-decoration: none !important;
+  }
+  a:link {
+    color: white;
+  }
+
+  /* visited link */
+  a:visited {
+    color: black;
+  }
+
+  /* mouse over link */
+  a:hover {
+    color: white;
+  }
+
+  /* selected link */
+  a:active {
+    color: white;
+  }
+  /* end about lisa */
+
+  /* lisa description */
+
+
+  .about-description {
+  padding: 5em;
+  }
+
+
+  h5 {
+  font-size: 1.8em;
+  text-align: center;
+  font-family: 'Crimson Text', serif;
+
+  }
+
+  .description-text-wait {
+
+  font-size: 3em;
+  font-family: 'Handlee', cursive;
+  /* text-align: left; */
+  padding-left: 3px;
+  }
+
+
+/* End Book Online */
+
+.padding-footing {
+  padding: 10em;
+}
+
+
+.groups-buttons {
+  padding: 1em;
+  text-align: center;
+}
+
+.photo-link-1 {
+  padding-right: 2em;
+  font-family: 'Crimson Text', serif;
+  font-size: 1em;
+
+
+}
+
+.photo-link-2 {
+  padding-left: 2em;
+  font-family: 'Crimson Text', serif;
+  font-size: 1em;
+
+}
 /* footer */
 
 footer {

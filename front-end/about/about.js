@@ -1,4 +1,4 @@
-//parallax js
+ //parallax js
 $(document).ready(function(){
   var $window = $(window);
     $('section[data-type="background"]').each(function(){
