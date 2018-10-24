@@ -193,33 +193,8 @@ section.module.parallax-1 {
     text-align: center;
   }
 
-  .btn {
-    text: center;
-    font-family: 'Crimson Text', serif;
-    border-radius: 0;
-  }
-  a {
-    color: white;
-    text-decoration: none !important;
-  }
-  a:link {
-    color: white;
-  }
 
-  /* visited link */
-  a:visited {
-    color: black;
-  }
 
-  /* mouse over link */
-  a:hover {
-    color: white;
-  }
-
-  /* selected link */
-  a:active {
-    color: white;
-  }
   /* end about lisa */
 
   /* lisa description */
@@ -238,11 +213,10 @@ section.module.parallax-1 {
   }
 
   .description-text-wait {
-
-  font-size: 3em;
-  font-family: 'Handlee', cursive;
-  /* text-align: left; */
-  padding-left: 3px;
+    font-size: 3em;
+    font-family: 'Handlee', cursive;
+    /* text-align: left; */
+    padding-left: 3px;
   }
 
 
@@ -252,24 +226,38 @@ section.module.parallax-1 {
   padding: 10em;
 }
 
+.btn {
+  text: center;
+  font-family: 'Crimson Text', serif;
+  border-radius: 0;
+}
+a {
+  color: white;
+  text-decoration: none !important;
+}
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: white;
+}
+
+/* selected link */
+a:active {
+  color: white;
+}
 
 .groups-buttons {
   padding: 1em;
   text-align: center;
 }
-
-.photo-link-1 {
-  padding-right: 2em;
-  font-family: 'Crimson Text', serif;
-  font-size: 1em;
-
-
-}
-
-.photo-link-2 {
-  padding-left: 2em;
-  font-family: 'Crimson Text', serif;
-  font-size: 1em;
 
 }
 /* footer */
