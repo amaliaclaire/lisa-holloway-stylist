@@ -38,8 +38,8 @@ section.module.parallax-1 {
   position: absolute;
   top: 1.7em;
   bottom: 0;
-  left: 0;
-  right: 2em;
+  left: 1em;
+  right: 1em;
   margin: auto;
   font-family: 'Crimson Text', serif;
   font-size: 25px;
