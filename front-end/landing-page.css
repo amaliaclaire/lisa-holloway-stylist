@@ -131,8 +131,10 @@ section.module.parallax-1 {
 
 .connect-section {
   background-color: #FFAFB0;
-  padding-top: 3em;
-  padding-bottom: 3em;
+  padding-top: 4em;
+  padding-bottom: 4em;
+  border: 1px solid #544F54;
+
 }
 
 .contact {
@@ -181,7 +183,7 @@ section.module.parallax-1 {
 /* ending social media */
 
 .padding-2 {
-  padding: 7em;
+  padding: 3em;
 }
 
 
@@ -194,7 +196,7 @@ section.module.parallax-1 {
 
   .lisa-speciality {
     padding-bottom: 1em;
-    font-family: 'Crimson Text', serif;
+    font-family: 'Kaushan Script', serif;
     font-size: 23px;
     text-align: center;
   }
@@ -300,7 +302,7 @@ footer {
   font-size: 1.5em;
   text-align: center;
 
-  left: -1em; 
+  left: -1em;
   position:absolute;
   bottom:0;
   width:100%;
