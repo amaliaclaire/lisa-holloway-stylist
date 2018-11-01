@@ -10,7 +10,6 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
-  padding: 2rem 1rem;
 }
 
 html {
@@ -18,8 +17,9 @@ html {
   min-height: 100%;
 }
 
+
 section.module.parallax-1 {
- background-image: url("https://s3-media2.fl.yelpcdn.com/bphoto/YEVehnE3A6v0QQ14Wl5LTg/ls.jpg");   background-position: 50% 0;
+ background-image: url("https://i.postimg.cc/t4VV6xhF/Image_from_i_OS.jpg");   background-position: 50% 0;
   background-repeat: repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -45,29 +45,156 @@ section.module.parallax-1 {
   font-size: 25px;
 }
 
-
 .logo-name {
   font-family: 'Kaushan Script';
+
 }
 
 /* landing page title */
 
 .lisa-holloway-title {
-  font-family: 'Kaushan Script';
-  text-align: center;
-
+  font-family: 'Kaushan Script', cursive;
+  text-align: center;7
 }
 
 .professional-hair-stylist {
-  font-family: 'Crimson Text', serif;
+  font-family: 'Playfair Display', serif;
   font-style: italic;
   text-align: center;
 }
 
 /* end landing page title */
 
+
+
+
+
+
+/* end of testimonals */
+
 .padding {
-  padding: 10em;
+  padding: 17em;
+}
+/* contact section */
+
+.connect-section {
+  background-color: #FFAFB0;
+  padding-top: 4em;
+  padding-bottom: 4em;
+  border: 1px solid #544F54;
+
+}
+
+.contact {
+
+  padding-top: 4em;
+  text-align: center;
+  border-style: dotted;
+  border-radius: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 33em;
+  height: 38em;
+  padding-bottom: 1em;
+  font-family: 'Crimson Text', serif;
+  border-color: #808080
+
+}
+
+
+
+
+
+/* end of contact section */
+
+/* social media */
+/* ending social media */
+
+.padding-2 {
+  padding: 3em;
+}
+
+
+/* Book Online */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+  .lisa-speciality {
+    padding-bottom: 1em;
+    font-family: 'Kaushan Script', serif;
+    font-size: 23px;
+    text-align: center;
+  }
+
+
+
+  /* end about lisa */
+
+
+
+/* Services options */
+.panel-group .panel {
+  border-radius: 0;
+  box-shadow: none;
+  border-color: #EEEEEE;
+}
+
+.panel-default > .panel-heading {
+  padding: 0;
+  border-radius: 0;
+  color: #212121;
+  background-color: #FAFAFA;
+  border-color: #EEEEEE;
+}
+
+.panel-title {
+  font-size: 14px;
+}
+
+.panel-title > a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+}
+
+.more-less {
+  float: right;
+  color: #212121;
+}
+
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #EEEEEE;
+}
+
+/* ----- v CAN BE DELETED v ----- */
+
+
+.demo {
+padding-top: 60px;
+padding-bottom: 110px;
+}
+
+.demo-footer {
+position: fixed;
+bottom: 0;
+width: 100%;
+padding: 15px;
+background-color: #212121;
+text-align: center;
+}
+
+.demo-footer > a {
+text-decoration: none;
+font-weight: bold;
+font-size: 14px;
+color: #fff;
+}
+/* end of services options */
+.padding-footing {
+  padding: 2em;
 }
 
 
@@ -83,6 +210,21 @@ footer {
 .py-3 {
   background-color: white !important;
 
+}
+
+
+
+.bg-circle a, a:hover, .media a:focus
+{
+  text-decoration: none !important;
+  outline: none;
+  color: #ececec;
+}
+.bg-circle-outline a, a:hover, .media a:focus
+{
+  text-decoration: none !important;
+  outline: none;
+  color: #ececec;
 }
 
 .footer-info {
@@ -119,7 +261,20 @@ ul {
 
 /* footer */
 
+.contact-area {
+    position: relative;
+}
 
+.contact-us {
+    /* background: gray url(https://subtlepatterns.com/patterns/geometry2.png) repeat 0 0; */
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    height: 300px;
+    padding: 60px 0;
+    box-sizing: border-box;
+    -webkit-animation: slide 20s linear infinite;
+}
 
 @-webkit-keyframes slide {
     from {
@@ -130,6 +285,32 @@ ul {
     }
 }
 
+.contact-list li i.fa {
+    color: #000;
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.contact-list li {
+    margin-bottom: 15px;
+}
+
+.contact-list li a {
+    color: #000;
+    font-size: 16px;
+    -webkit-transition: all 350ms ease;
+    -moz-transition: all 350ms ease;
+    -ms-transition: all 350ms ease;
+    -o-transition: all 350ms ease;
+    transition: all 350ms ease;
+}
+
+.contact-list li a:hover {
+    background-color: #FF7779;
+    text-decoration: none;
+}
+
+
 
 /*end of contact section   */
 @media(max-width: 768px){
@@ -137,7 +318,12 @@ ul {
 }
 
 
-
+.jumbotron {
+  /* background-image: url("https://image.ibb.co/iDysC9/IMG_20180329_141451485.jpg"); */
+  background-size: 100% 100%;
+  color: #604D53;
+  margin-bottom: 0;
+}
 /* .navbar-scroll {
   background-color: #604D53;
   transition: background-color 0.5s;
@@ -196,7 +382,7 @@ section.module.parallax h1 {
   text-shadow: 0 0 10px white;
 }
 section.module.parallax-1 {
-  background-image: url("https://s3-media2.fl.yelpcdn.com/bphoto/YEVehnE3A6v0QQ14Wl5LTg/o.jpg");
+  background-image: url("https://i.postimg.cc/t4VV6xhF/Image_from_i_OS.jpg");
   background-position: 50%, 0;
   background-repeat: repeat;
   background-attachment: fixed;
@@ -204,10 +390,39 @@ section.module.parallax-1 {
   background-color: #604D53;
   background-blend-mode: screen;
 }
+section.module.parallax-2 {
+  background-image: url("https://www.go2convert.com/Converted/Download/981929078bab48508fdf35c28a05ad5a");
+  background-position: 50% 0;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #604D53;
+  background-blend-mode: screen;
+}
+section.module.parallax-3 {
+  background-image: url("http://www.psd-dude.com/tutorials/resources-images/free-rain-and-raindrop-textures-for-photoshop/raindrops-window-background.jpg");
+  background-position: 50% 0;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #604D53;
+  background-blend-mode: screen;
+}
 
-
-
-
+.gallery {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-width: 33%;
+    -moz-column-width: 33%;
+    column-width: 33%; }
+.gallery .pics {
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease; }
+.gallery .animation {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1); }
 
 @media (max-width: 450px) {
     .gallery {
