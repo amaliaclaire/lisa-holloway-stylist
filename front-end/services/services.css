@@ -57,24 +57,22 @@ section.module.parallax-1 {
   text-align: center;7
 }
 
-.professional-hair-stylist {
-  font-family: 'Playfair Display', serif;
-  font-style: italic;
-  text-align: center;
-}
-
 /* end landing page title */
-
-
-
-
-
-
-/* end of testimonals */
-
-.padding {
-  padding: 17em;
+.hair-title {
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
+
+
+/* color-section  */
+.hair-color {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+
+/* end of color section */
+
 /* contact section */
 
 .connect-section {
