@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Sunlight';
+    src: url('fonts/Sunlight.eot');
+    src: url('fonts/Sunlight.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Sunlight.woff2') format('woff2'),
+         url('fonts/Sunlight.woff') format('woff'),
+         url('fonts/Sunlight.ttf')  format('truetype'),
+         url('fonts/Sunlight.svg#Sunlight') format('svg');
+}

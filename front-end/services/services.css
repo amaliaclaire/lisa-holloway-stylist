@@ -1,3 +1,10 @@
+/* font-face imported  */
+  @font-face {
+    font-family: Sunlight;
+    src: url(sunlight_font/fonts/Sunlight.woff);
+  }
+
+
 html {
   position: relative;
   min-height: 100%;
@@ -53,8 +60,9 @@ section.module.parallax-1 {
 /* landing page title */
 
 .lisa-holloway-title {
-  font-family: 'Kaushan Script', cursive;
-  text-align: center;7
+  font-family: Sunlight, serif;
+  font-size: 10em; 
+  text-align: center;
 }
 
 /* end landing page title */
@@ -140,7 +148,7 @@ a:active {
 }
 
 .description h5 {
-  text-align: center; 
+  text-align: center;
 }
 
 
