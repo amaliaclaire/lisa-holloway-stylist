@@ -106,7 +106,42 @@ section.module.parallax-1 {
 
 }
 
+.btn {
+  text: center;
+  font-family: 'Crimson Text', serif;
+  border-radius: 0;
+}
+a {
+  color: white;
+  text-decoration: none !important;
+}
+a:link {
+  color: white;
+}
 
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: white;
+}
+
+/* selected link */
+a:active {
+  color: white;
+}
+
+.groups-buttons {
+  padding: 1em;
+  text-align: center;
+}
+
+.description h5 {
+  text-align: center; 
+}
 
 
 
