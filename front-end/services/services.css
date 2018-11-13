@@ -61,12 +61,13 @@ section.module.parallax-1 {
 
 .lisa-holloway-title {
   font-family: Sunlight, serif;
-  font-size: 10em; 
+  font-size: 10em;
   text-align: center;
 }
 
 /* end landing page title */
 .hair-title {
+  font-family: 'Crimson Text', serif;
   padding-top: 1em;
   padding-bottom: 1em;
 }
@@ -74,6 +75,7 @@ section.module.parallax-1 {
 
 /* color-section  */
 .hair-color {
+  font-family: 'Crimson Text', serif;
   padding-top: 1em;
   padding-bottom: 1em;
 }
@@ -81,13 +83,25 @@ section.module.parallax-1 {
 
 /* treatment */
 
-.treatment-title {
+.section-title {
+  font-family: 'Crimson Text', serif;
   padding-top: 1em;
   padding-bottom: 1em;
+  padding-left: 1em;
+  font-weight: bold;
 }
 
 /* end of treatment */
 
+.service-section {
+  min-height: 400px;
+  padding: 30px;
+  border-right: 1px solid #ddd;
+}
+
+.service-spacing {
+  padding: .5em;
+}
 /* contact section */
 
 .connect-section {
@@ -119,6 +133,15 @@ section.module.parallax-1 {
   font-family: 'Crimson Text', serif;
   border-radius: 0;
 }
+
+.btn-link {
+  color: grey;
+}
+
+.btn-link:hover {
+  color: grey;
+}
+
 a {
   color: white;
   text-decoration: none !important;
@@ -159,7 +182,7 @@ a:active {
 /* ending social media */
 
 .padding-2 {
-  padding: 3em;
+  padding: 1em;
 }
 
 
